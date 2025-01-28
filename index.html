@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modi’s Mobile Kgotla</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Modi’s Mobile Kgotla</h1>
+        <img src="Mobile Kgotla Logo_20241207_111715_0000.png" alt="Mobile Kgotla Logo" class="logo-imgs">
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#">Services</a>
+            <button class="login-btn">Login</button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-text">
+            <h2>Welcome to Modi’s Mobile Kgotla</h2>
+            <p>Simplify The Economy, Amplify Growth</p>
+            <button class="read-more">Read More</button>
+        </div>
+        <img src="Mobile Kgotla Logo_20241207_111715_0000.png" alt="Mobile Kgotla Logo" class="logo-img">
+    </header>
+    <section class="services">
+        <h2 class="section-title">Why Choose Us?</h2>
+        <br>
+        <br>
+        <div class="service-container">
+            <div class="service-card">
+                <div class="service-box">
+                    <p>Simplify The Economy, Amplify Growth</p>
+                </div>
+               
+            </div>
+            <div class="service-card">
+                <div class="service-box">
+                    <p>Simplify The Economy, Amplify Growth</p>    
+                </div>
+                
+            </div>
+            <div class="service-card">
+                <div class="service-box">
+                    <p>Simplify The Economy, Amplify Growth</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('show');
+            hamburger.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
